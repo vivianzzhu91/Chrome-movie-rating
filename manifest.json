@@ -1,7 +1,7 @@
 {
-  "name": "Getting Started Example",
+  "name": "Youtube moview rating",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "Get Rotten tomatoes and Douban movie rating by Youtube Links",
   "permissions": ["activeTab","declarativeContent","storage","webNavigation","*://*/*"],
   "options_page": "options.html",
   "background": {
@@ -9,7 +9,7 @@
       "persistent": false
     },
   "content_scripts": [{
-    "matches": ["<all_urls>"],
+    "matches": ["https://www.youtube.com/*"],
     "js": ["contentscript.js"]
   }],
   "web_accessible_resources": ["script.js"],
