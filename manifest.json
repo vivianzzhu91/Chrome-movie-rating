@@ -13,5 +13,13 @@
     "js": ["contentscript.js"]
   }],
   "web_accessible_resources": ["script.js"],
+  "page_action": {
+    "default_icon": {
+      "16": "images/camera-512.png",
+      "32": "images/camera-512.png",
+      "48": "images/camera-512.png",
+      "128": "images/camera-512.png"
+    }
+  },
   "manifest_version": 2
 }
