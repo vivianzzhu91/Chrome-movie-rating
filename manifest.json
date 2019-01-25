@@ -1,7 +1,7 @@
 {
-  "name": "Douban movie rating",
+  "name": "YouTube Movie Rating",
   "version": "1.0",
-  "description": "Get Douban movie rating links when loading movies on Youtube",
+  "description": "Get movie ratings from IMDB, Rotten Tomatoes and Douban when loading movies on Youtube",
   "permissions": ["activeTab","declarativeContent","storage","webNavigation","https://www.youtube.com/*"],
   "options_page": "options.html",
   "background": {
